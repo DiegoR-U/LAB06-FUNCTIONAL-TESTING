@@ -1,4 +1,4 @@
-FROM openjdk:21-slim-buster
+FROM eclipse-temurin:21-jdk-jammy
 WORKDIR /app
 
 RUN apt update && apt install -y curl git
